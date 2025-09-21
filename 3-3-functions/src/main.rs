@@ -2,7 +2,7 @@ fn main() {
     println!("Hello, World");
     another_function();
     print_labeled_measurement(5, 'h');
-    
+
     let y = {
         let x = 3;
         x + 1 // returns the value of x + 1
@@ -24,6 +24,7 @@ fn five() -> i32 /* return type */ {
     5 // no semicolon returns the expression
 }
 
+// return expression with parameter
 fn plus_one(x: i32) -> i32 {
     x + 1
 }
