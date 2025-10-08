@@ -36,6 +36,8 @@ fn main() {
     // Tuples
     let tuple: (i32, f64, u8) = (500, 6.4, 1);
     let (x, y, z) = tuple;
+    // Destructing with types
+    let (x, y, z): (i32, f64, u8) = (x, y, z);
     println!("The value of y is: {0},{1},{2}", x, y, z);
 
     // Arrays
