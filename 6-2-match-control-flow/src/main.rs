@@ -1,5 +1,3 @@
-use std::{default, i32};
-
 #[derive(Debug)]
 enum UsState {
     Arizona,
