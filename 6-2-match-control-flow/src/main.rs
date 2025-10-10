@@ -57,6 +57,15 @@ fn main() {
             }
         }
     }
+    let _ = [
+        Coin::Nickel,
+        Coin::Dime,
+        Coin::Penny,
+        Coin::Quarter(UsState::Arizona),
+        Coin::Quarter(UsState::California),
+        Coin::Quarter(UsState::NewYork),
+        Coin::Quarter(UsState::Ohio),
+    ];
 }
 
 fn plus_one(x: Option<i32>) -> Option<i32> {
